@@ -1,0 +1,13 @@
+include <stdio.h>
+void main(){
+    //Declaración de variables.
+    int X,Y,Z;
+    printf("Por favor, introduzca un numero: ");
+    scanf("%d",&X);
+    printf("Ahora, inserte otro: ");
+    scanf("%d",&Y);
+    /*Se devuelve el resultado de la
+    suma*/
+    Z=X+Y;
+    printf("\nEl resultado es %d\n",Z);
+}

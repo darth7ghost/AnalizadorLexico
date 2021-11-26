@@ -1,0 +1,149 @@
+#____________COMENTARIOS:
+
+-Comentario simple en la línea [15]:
+	//Comentario de una sola linea
+
+-Comentario simple en la línea [21]:
+    ///Comentario triple
+
+-Comentario multilínea desde línea [17] hasta línea [19]:
+    /*Este es un comentario de varias lineas
+      para probar el funcionamiento del analizador
+    */
+
+
+#____________CLASES:
+
+-Clase [Person] declarada en línea [1], de tipo [public]
+
+
+#____________CONSTRUCTORES:
+
+-Constructor de clase: [Person] en linea [11]:
+Parámetros recibidos: (String name, int age)
+Finaliza en línea [14]
+
+-Constructor de clase: [Person] en linea [23]:
+Finaliza en línea [23]
+
+
+#____________ATRIBUTOS:
+
+-Atributo de tipo: [String] en la linea [3]
+Modificador de acceso: [String]
+Atributo: [privatename]
+Valor de asignación: [Sin valor asignado]
+
+-Atributo de tipo: [String] en la linea [9]
+Modificador de acceso: [String]
+Atributo: [obj]
+Nuevo objeto instanciado de tipo: [String()]
+
+-Atributo de tipo: [int] en la linea [4]
+Modificador de acceso: [int]
+Atributo: [privateage]
+Valor de asignación: [Sin valor asignado]
+
+-Atributo de tipo: [int] en la linea [6]
+Modificador de acceso: [int]
+Atributo: [protectedmy]
+Método asignado: [myNumber()]
+
+-Atributo de tipo: [int] en la linea [7]
+Modificador de acceso: [int]
+Atributo: [private01s]
+Valor de asignación: [3]
+
+-Atributo de tipo: [int] en la linea [82]
+Modificador de acceso: [int]
+Atributo: [var]
+Valor de asignación: [0]
+
+
+#____________MÉTODOS:
+
+-Metodo de nombre: [publicsayHi] en linea [25]
+Tipo de retorno: [void]
+Modificador de acceso: [void]
+Finaliza en línea: [27]
+
+-Metodo de nombre: [publicgetName] en linea [29]
+Tipo de retorno: [String]
+Modificador de acceso: [String]
+Finaliza en línea: [31]
+
+-Metodo de nombre: [publicsetName(newName)] en linea [33]
+Tipo de retorno: [void]
+Modificador de acceso: [String]
+Parámetros recibidos: (String newName)
+Finaliza en línea: [35]
+
+-Metodo de nombre: [publicgetAge] en linea [37]
+Tipo de retorno: [int]
+Modificador de acceso: [int]
+Finaliza en línea: [39]
+
+-Metodo de nombre: [publicsetAge(newAge)] en linea [41]
+Tipo de retorno: [void]
+Modificador de acceso: [int]
+Parámetros recibidos: (int newAge)
+Finaliza en línea: [43]
+
+-Metodo de nombre: [privateexist] en linea [45]
+Tipo de retorno: [boolean]
+Modificador de acceso: [boolean]
+Finaliza en línea: [45]
+
+-Metodo de nombre: [protectednumShort] en linea [47]
+Tipo de retorno: [short]
+Modificador de acceso: [short]
+Finaliza en línea: [49]
+
+-Metodo de nombre: [privatemethod] en linea [57]
+Tipo de retorno: [void]
+Modificador de acceso: [void]
+Finaliza en línea: [60]
+
+-Metodo de nombre: [publicvoidprMutiplicTable(num,long)] en linea [76]
+Tipo de retorno: [int]
+Modificador de acceso: [int]
+Parámetros recibidos: (int num, int long)
+Finaliza en línea: [80]
+
+
+#____________CONDICIONALES 'if':
+
+-Condición if en línea: [51]
+Validación: (this.name.getClass() == String)
+Finaliza en linea: [53]
+
+-Condición if en línea: [55]
+Validación: (this.age.getClass() == Integer)
+Finaliza en linea: [55]
+
+-Condición if en línea: [62]
+Validación: (this.name != null)
+Finaliza en linea: [64]
+
+-Condición Else-if en línea: [64]
+Validación: (this.name == "")
+Finaliza en linea: [64]
+
+
+#____________CONDICIONALES 'switch':
+
+-Condición switch en línea: [67]
+Validación: (this.age)
+El switch tiene [2] casos.
+Finaliza en linea: [74]
+
+
+#____________BUCLES:
+
+Bucle tipo [for] en la linea: [77]
+Iteración: ( int i=1; int<=long; i++ )
+Finaliza en linea: [79]
+
+Bucle tipo [while] en la linea: [83]
+Iteración: (var<10)
+Finaliza en linea: [83]
