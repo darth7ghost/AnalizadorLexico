@@ -18,3 +18,6 @@ Puedes agregar más tokens o tipos de datos para que sea capaz de analizar token
 
 ## ¿Cómo obtenerlo?
 Puedes clonar el repositorio a tu IDE favorito usando el siguiente comando en la consola o terminal:
+´´´bash
+gh repo clone darth7ghost/AnalizadorLexico
+´´´
